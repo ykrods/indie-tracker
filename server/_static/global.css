@@ -1,0 +1,58 @@
+:root {
+  --header-height: 48px;
+  --footer-height: 18px;
+  --danger: red;
+  --bs-50: rgba(0, 0, 0, 0.02) 0px 1px 2px 0px, rgba(0, 0, 0, 0.02) 0px 1px 2px 0px, rgba(0, 0, 0, 0.02) 0px 1px 4px 0px;
+  --bs-100: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
+
+  /* svelte-mui vars */
+  --color: #333;
+  --alternate: #fff;
+  --bg-color: #fbfbfa;
+  --primary: #1976d2;
+  --accent: #f50057;
+  --divider: rgba(0, 0, 0, 0.1);
+  --bg-popover: #EEE;
+  --border: #dfdfdf;
+  --label: rgba(0, 0, 0, 0.3755);
+  --bg-input-filled: rgba(0, 0, 0, 0.0555);
+}
+
+body {
+    margin: 0;
+    padding: var(--header-height) 0 0 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--color, '#333');
+    background-color: #eceff1;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+.flex-align-top {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 10px;
+  background-color: white;
+  box-shadow: var(--bs-50);
+}
+
+/* rst document style */
+.document table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.document th, .document td {
+  border: 1px solid #CCC;
+  padding: 5px;
+}
+.document th {
+  background-color: #EEE;
+}

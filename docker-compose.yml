@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  # TODO: add client app build environment
+  indie-tracker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - debug=1
+        - app_dir=/home/ituser/indie-tracker
+    volumes:
+      - ".:/home/ituser/indie-tracker"
+      - "/home/ituser/indie-tracker/server/.tox"
+    ports:
+    - "18000:18000"
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    init: true
+    entrypoint: ["/bin/bash"]
