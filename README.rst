@@ -39,7 +39,7 @@ setup
    git init
    git config user.name "your name"
    git config user.email "your email"
-   docker run --rm -p 18000:18000 -v `pwd`:/example-proj ykrods/indie-tracker /example-proj
+   docker run --rm -p 127.0.0.1:18000:18000 -v `pwd`:/example-proj ykrods/indie-tracker /example-proj
    # visit http://localhost:18000
 
 Similar projects

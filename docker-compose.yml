@@ -12,7 +12,7 @@ services:
       - ".:/home/ituser/indie-tracker"
       - "/home/ituser/indie-tracker/server/.tox"
     ports:
-    - "18000:18000"
+    - "127.0.0.1:18000:18000"
     environment:
       - PYTHONDONTWRITEBYTECODE=1
       - PYTHONUNBUFFERED=1
