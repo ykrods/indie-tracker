@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  indie-tracker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - debug=0
+        - app_dir=/opt/indie-tracker
+    image: ykrods/indie-tracker:latest
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
