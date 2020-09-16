@@ -13,6 +13,15 @@ Features
 * Support `Mermaid <http://mermaid-js.github.io/mermaid/>`_
 * Using git as datastore, therefore you can copy or backup easily to exec `git clone` or `git push`
 
+Screen shots
+===============
+
+.. image:: https://raw.githubusercontent.com/ykrods/indie-tracker/master/doc/ss-1.png
+  :alt: issue list view
+
+.. image:: https://raw.githubusercontent.com/ykrods/indie-tracker/master/doc/ss-2.png
+  :alt: issue detail view
+
 Important notice
 ===================
 
