@@ -2,7 +2,7 @@
 Indie Tracker
 ================
 
-Project management system for prototying or personal project on local server
+Portable project management system for prototying or personal project on local server
 
 Features
 ===========
