@@ -58,7 +58,8 @@ def html_depart_mermaid(self, node):
     pass
 
 
-directives.register_directive("mermaid", Mermaid)
+def setup():
+    directives.register_directive("mermaid", Mermaid)
 
-setattr(HTMLTranslator, "visit_mermaid", html_visit_mermaid)
-setattr(HTMLTranslator, "depart_mermaid", html_depart_mermaid)
+    setattr(HTMLTranslator, "visit_mermaid", html_visit_mermaid)
+    setattr(HTMLTranslator, "depart_mermaid", html_depart_mermaid)

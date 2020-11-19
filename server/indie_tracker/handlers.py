@@ -6,7 +6,7 @@ from aiohttp import (
     WSMsgType,
 )
 
-from indie_tracker.converter.rst2html import rst2html
+from indie_tracker.converter import rst2html
 from indie_tracker.handlerlibs import (
     validate_match_info,
     validate_request_data,
