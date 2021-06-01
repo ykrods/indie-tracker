@@ -2,7 +2,9 @@
 Indie Tracker
 ================
 
-Portable project management system for prototying or personal project on local server
+!!! This project has moved to https://github.com/ykrods/iter .
+
+Project management system for prototying or personal project on local server
 
 Features
 ===========
